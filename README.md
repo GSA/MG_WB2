@@ -7,6 +7,15 @@ Download the data [here](https://drive.google.com/drive/u/0/folders/1Ah7MOw99aKe
 cd 2016
 gunzip *.gz
 ```
+If the above results in
+```bash
+-bash: /usr/bin/gunzip: Argument list too long
+```
+then try
+```bash
+cd 2016
+find . -type f -exec gunzip {} +
+```
 
 ## License
 
