@@ -13,6 +13,7 @@ If the above results in
 ```
 then try
 ```bash
+cd 2016
 find . -type f -exec gunzip {} +
 ```
 
