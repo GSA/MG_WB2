@@ -133,3 +133,4 @@ $RECYCLE.BIN/
 # data
 *.csv
 *.zip
+*.gz
