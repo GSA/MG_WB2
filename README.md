@@ -55,10 +55,12 @@ This is the IEQ data collected as a part of the larger WB2 study, which included
 #### Post-Cohort Data
 
 Download the post-cohort data [here](https://drive.google.com/drive/u/0/folders/1Ah7MOw99aKeQazV5bOAxG8r0zR4jHI5r). Move the two zip files into the `data/post-cohort` directory. Unzip those two files and then unzip all of the csvs within. You can do so in Linux or OSX with:
+
 ```bash
 cd 2016
 gunzip *.gz
 ```
+
 If the above results in
 ```bash
 -bash: /usr/bin/gunzip: Argument list too long
@@ -71,11 +73,15 @@ find . -type f -exec gunzip {} +
 
 #### Absenteeism Data
 
-This dataset contains HR leave records. It can be found [here](https://drive.google.com/drive/folders/1VpKn8hX4nYlBhVp946bsQt9whmtQ5q9C).
+This dataset contains HR leave records. You can download it [here](https://drive.google.com/drive/folders/1VpKn8hX4nYlBhVp946bsQt9whmtQ5q9C). Once you've got it, place it in `data/absenteeism`.
 
 #### Computerized Maintenance Management System Data
 
-This dataset contains information about maintenance operations in GSA's buildings. It can be joined with the IEQ data to gain additional information about the location of each wallnode such as the machinery in/near the room. You can find it [here](https://drive.google.com/drive/folders/1lZ1eHMh9NDwN5PVW6gQqAScWxRkGaEKu).
+This dataset contains information about maintenance operations in GSA's buildings. It can be joined with the IEQ data to gain additional information about the location of each wallnode such as the machinery in/near the room. You can find it [here](https://drive.google.com/drive/folders/1lZ1eHMh9NDwN5PVW6gQqAScWxRkGaEKu). Once you've got it, place it in `data/cmms`.
+
+#### BookIt
+
+This dataset contains workstation reservation data. It's needed to know where employees in the absenteeism data sit, which will help you join that data to the IEQ data. The files can be found [here]
 
 ## License
 
