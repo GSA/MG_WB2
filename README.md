@@ -2,7 +2,7 @@
 
 From 2016-17, GSA's Office of [Federal High Performance Buildings](https://www.gsa.gov/about-us/organization/office-of-governmentwide-policy/office-of-federal-highperformance-buildings) collected Indoor Environmental Quality (IEQ) data in several of GSA's buidlings. For several months, the program also collected data from GSA employees related to their wellbeing in the form of daily journals, wearnodes that monitored their vitals, and demographics. Additional datasets are also available to join to the IEQ data.
 
-These datasets are stroed in a number of csvs on our team's Google Drive. This repo contains scripts to join these datasets as well as analyses performed with the data.
+These datasets are stored in a number of csvs on our team's Google Drive. This repo contains scripts to join these datasets as well as analyses performed with the data.
 
 ## Getting Started
 
