@@ -65,11 +65,16 @@ If the above results in
 ```bash
 -bash: /usr/bin/gunzip: Argument list too long
 ```
-then try
+then try 
 ```bash
 cd 2016
 find . -type f -exec gunzip {} +
 ```
+
+Another option that utilizes only Python is to in the notebook located [here](https://github.com/GSA/wb2/blob/gz_extract/GZ%20%Mass%20Extract.ipynb).
+
+This enables you to input the drive folder and all .gz files will be extracted within same folder. This option is helpful
+if the user does not have access to Linux or PowerShell. 
 
 #### Absenteeism Data
 
